@@ -1,0 +1,90 @@
+/* .nav-link:hover {
+  color: red;
+}
+.nav-link{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 500;
+font-size:larger;}
+
+#icon{
+  font-size:larger;
+}
+
+#icon:hover {
+  color: red;
+}
+
+span{color: rgb(70, 137, 141);
+font-size: xx-large;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+nav{position: fixed;
+top: 0;} */
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.nav-link {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f00;
+}
+
+.dropdown-menu {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+  color: #f00;
+}
+
+.btn {
+  border: none;
+  border-radius: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #f00;
+}
+
+.btn-primary:hover {
+  background-color: #000;
+}
+
+#icon {
+  font-size: 1.5rem;
+  color: #000;
+  padding: 0.
+}
